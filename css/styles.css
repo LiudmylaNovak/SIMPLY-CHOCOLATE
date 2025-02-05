@@ -6,7 +6,15 @@ body {
 a {
   text-decoration: none;
 }
-/* Header*/
+ul,
+ol {
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+/* #region Header*/
 .header {
 }
 .logo {
@@ -18,33 +26,31 @@ a {
 }
 .logo-text {
   font-style: italic;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.11;
-  letter-spacing: -0.03em;
-  color: #111;
 }
 .header-nav {
 }
 .header-list {
+}
+
+.header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: -0.02em;
   color: #111;
-  list-style-type: none;
 }
-.header-list:hover,
-.header-list:focus {
+.header-link:hover,
+.header-link:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: -0.02em;
   color: #fd9222;
 }
-/* Hero*/
+/* #endregion Header*/
+/* #region Hero*/
 .hero {
-  background: #1e1823;
+  background-color: #1e1823;
 }
 .main-title {
   font-weight: 500;
@@ -54,25 +60,25 @@ a {
   color: #fff;
 }
 .hero-btn {
-  background: #fd9222;
+  background-color: #fd9222;
   font-weight: 600;
   font-size: 14px;
   color: #fff;
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  background: #fcf1e0;
+  background-color: #fcf1e0;
   font-weight: 600;
   font-size: 14px;
   color: #fd9222;
 }
-.hero-link {
+.hero-link-made {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
 }
-.hero-link:hover,
-.hero-link:focus {
+.hero-link-made:hover,
+.hero-link-made:focus {
   font-weight: 600;
   font-size: 14px;
   color: #fd9222;
@@ -92,12 +98,12 @@ a {
   letter-spacing: -0.03em;
   color: #fd9222;
 }
-/* Benefits */
+/*#endregion Hero*/
+/* #region Benefits */
 .benefits {
-  background: #1e1823;
+  background-color: #1e1823;
 }
 .benefits-list {
-  list-style-type: none;
 }
 .benefits-item {
 }
@@ -112,7 +118,8 @@ a {
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.7);
 }
-/* Ingredients */
+/* #endregion Benefits */
+/* #region Ingredients */
 .ingredients {
 }
 .ingredients-title {
@@ -142,7 +149,6 @@ a {
   color: #111;
 }
 .ingredients-list {
-  list-style-type: none;
 }
 .ingredients-item-chocolate {
   background: #fd9222;
@@ -176,7 +182,8 @@ a {
   text-transform: uppercase;
   color: #111;
 }
-/* How it's made */
+/* #endregion Ingredients */
+/* #region How it's made */
 .made {
 }
 .made-title {
@@ -217,7 +224,8 @@ a {
   letter-spacing: -0.02em;
   color: #111;
 }
-/* Reviews */
+/* #endregion How it's made */
+/* #region Reviews */
 .reviews {
 }
 .reviews-title {
@@ -239,7 +247,6 @@ a {
   color: #111;
 }
 .reviews-list {
-  list-style-type: none;
 }
 .review-item {
 }
@@ -272,9 +279,10 @@ a {
   font-size: 18px;
   color: #fff;
 }
-/* Footer */
+/* #endregion Reviews */
+/* #region Footer */
 .footer {
-  background: #1e1823;
+  background-color: #1e1823;
 }
 .footer-text {
   font-weight: 500;
@@ -324,3 +332,12 @@ a {
   letter-spacing: -0.02em;
   color: #fff;
 }
+.footer-link-menu:hover,
+.footer-link-menu:focus {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fd9222;
+}
+/* #endregion Footer */
