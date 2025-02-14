@@ -238,9 +238,17 @@ button {
 }
 .ingredients-item:nth-child(4n + 1) {
   background: #fd9222;
+  border: none;
+  .ingredients-subtitle {
+    color: #fff;
+  }
 }
 .ingredients-item:nth-child(4n + 3) {
   background: #1e1823;
+  border: none;
+  .ingredients-subtitle {
+    color: #fff;
+  }
 }
 .ingredients-item:nth-child(2n + 2) {
   background: #fff;
@@ -255,7 +263,7 @@ button {
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #fff;
+  color: #111;
 }
 .ingredients-subtitle-two {
   font-weight: 600;
@@ -310,6 +318,7 @@ button {
 /* #endregion How it's made */
 /* #region Reviews */
 .reviews {
+  padding: 100px 0;
 }
 .reviews-title {
   font-weight: 600;
@@ -319,6 +328,8 @@ button {
   text-transform: uppercase;
   text-align: center;
   color: #fd9222;
+  padding-bottom: 50px;
+  margin: 0 auto;
 }
 .reviews-title-span {
   font-weight: 600;
@@ -330,8 +341,12 @@ button {
   color: #111;
 }
 .reviews-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 49px;
 }
 .review-item {
+  width: calc((100% - 56px) / 3);
 }
 .review-img {
 }
@@ -354,6 +369,10 @@ button {
   font-weight: 600;
   font-size: 18px;
   color: #111;
+  border: 1px solid #fd9222;
+  border-radius: 100px;
+  padding: 14px 40px;
+  margin: 0 auto;
 }
 .review-btn:hover,
 .review-btn:focus {
@@ -366,6 +385,7 @@ button {
 /* #region Footer */
 .footer {
   background-color: #1e1823;
+  padding: 50px 0 86px 32px;
 }
 .footer-text {
   font-weight: 500;
@@ -373,6 +393,7 @@ button {
   line-height: 1.21;
   letter-spacing: -0.02em;
   color: #fff;
+  max-width: 300px;
 }
 .footer-text-span {
   font-weight: 500;
@@ -383,16 +404,20 @@ button {
 }
 .footer-address {
   font-style: normal;
+  max-width: 177px;
+  margin-left: auto;
 }
 .footer-text-address {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
   color: #fff;
+  margin-bottom: 14px;
 }
 .footer-list-address {
 }
 .footer-item-address {
+  margin-bottom: 4px;
 }
 .footer-link-address {
   font-weight: 400;
