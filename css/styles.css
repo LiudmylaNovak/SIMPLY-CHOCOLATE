@@ -293,28 +293,44 @@ button {
   text-transform: uppercase;
   text-align: center;
   color: #111;
+  margin-bottom: 50px;
 }
 .made-title-span {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.17;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  text-align: center;
   color: #fd9222;
+}
+.made-content {
+  display: flex;
+  gap: 20px;
 }
 .made-img {
   background-color: rgba(0, 0, 0, 0.4), url("path_to_image");
+}
+.made-list-cont {
+  padding: 32px;
 }
 .made-subtitle {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33;
   color: #111;
+  margin-bottom: 28px;
+  max-width: 350px;
 }
 .made-list {
 }
+/* .made-subtext::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-image: url(../images/Ellipse.png);
+  background-repeat: no-repeat;
+  margin-right: 4px;} */
+
 .made-item {
+  margin-bottom: 24px;
+}
+.made-item:last-child {
+  margin-bottom: 0;
 }
 .made-subtext {
   font-weight: 400;
